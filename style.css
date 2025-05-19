@@ -228,5 +228,44 @@ main {
     margin-bottom: 5px;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.airports-grid {
+  display: flex;
+  gap: 20px; 
+}
+
+.airport-card {
+  background-color: #00183E; 
+  border-radius: 5px; 
+  overflow: hidden; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.airport-card img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
+.airport-info {
+  padding: 15px; 
+  text-align: left; 
+}
+
+.airport-info h3 {
+  margin: 0 0 5px; 
+  font-size: 1.2em; 
+}
+
+.airport-info p {
+  margin: 0; 
+  font-size: 0.9em; 
+  color: #ecf0f1; 
+}
 
 
