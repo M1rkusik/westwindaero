@@ -137,6 +137,10 @@ main {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.gallery img:hover {
+    transform: translateY(-5px);
 }
 
 .fleet-page {
